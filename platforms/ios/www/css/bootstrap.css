@@ -611,7 +611,7 @@ dd {
 @media (min-width: 768px) {
   .dl-horizontal dt {
     float: left;
-    width: 160px;
+    width: 50%;
     overflow: hidden;
     clear: left;
     text-align: right;
@@ -2364,6 +2364,7 @@ input[type="button"].btn-block {
 }
 .collapse {
   display: none;
+  background-color:rgba(255,255,255,0.6)
 }
 .collapse.in {
   display: block;
@@ -4370,7 +4371,7 @@ a.list-group-item.active > .badge,
   padding: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: #fff;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4954,6 +4955,7 @@ a.list-group-item-danger.active:focus {
 }
 .panel-default {
   border-color: #ddd;
+
 }
 .panel-default > .panel-heading {
   color: white;

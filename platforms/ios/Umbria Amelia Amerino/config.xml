@@ -19,6 +19,9 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
+    <feature name="Compass">
+        <param name="ios-package" value="CDVCompass" />
+    </feature>
     <name>Umbria Amelia Amerino</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -28,4 +31,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
 </widget>
