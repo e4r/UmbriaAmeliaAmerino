@@ -27,13 +27,21 @@ module.exports = [
         "clobbers": [
             "window.open"
         ]
+    },
+    {
+        "file": "plugins/com.phonegap.plugins.OrientationLock/www/orientationLock.js",
+        "id": "com.phonegap.plugins.OrientationLock.OrientationLock",
+        "clobbers": [
+            "OrientationLock"
+        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
     "org.apache.cordova.device-orientation": "0.3.6",
-    "org.apache.cordova.inappbrowser": "0.4.0"
+    "org.apache.cordova.inappbrowser": "0.4.0",
+    "com.phonegap.plugins.OrientationLock": "0.1"
 }
 // BOTTOM OF METADATA
 });

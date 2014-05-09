@@ -770,7 +770,6 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
       border:5px solid #333;
-      color:white;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
@@ -2245,6 +2244,22 @@ fieldset[disabled] .btn-warning.active {
   color: #f0ad4e;
   background-color: #fff;
 }
+
+.btn-compass {
+    color: #fff;
+    background-color: #bdbb05;
+    border-color: #A4A104;
+}
+.btn-compass:hover,
+.btn-compass:focus,
+.btn-compass:active,
+.btn-compass.active,
+.open .dropdown-toggle.btn-compass {
+    color: #fff;
+    background-color: #D6D205;
+    border-color: #A4A104;
+}
+
 .btn-danger {
   color: #fff;
   background-color: #d9534f;

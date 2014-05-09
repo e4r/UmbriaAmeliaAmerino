@@ -37,6 +37,9 @@
         },
         "org.apache.cordova.inappbrowser": {
             "PACKAGE_NAME": "com.ameliaamerino.app"
+        },
+        "com.phonegap.plugins.OrientationLock": {
+            "PACKAGE_NAME": "com.ameliaamerino.app"
         }
     },
     "dependent_plugins": {}
