@@ -24,13 +24,14 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="../../css/index.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/animate.css" />
         <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="../../css/custom.css" />
         <link rel="stylesheet" type="text/css" href="../../css/font-awesome.min.css" />
         
         <title>Le Informazioni - Amelia e l'Amerino</title>
     </head>
-    <body class='news-block' style='height:100%;'>
+    <body class='bg-grad-news' style='height:100%;'>
         
         <div class='header'>
             <div class='row height-maxed'>
@@ -55,93 +56,14 @@
             </div>
         </div>
         
-        <div class="panel-group" id="accordion">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title bigger-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                            <i class='fa fa-info-circle'></i> Hotels <i class='fa fa-chevron-down'></i>
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse in">
-                    <div class="panel-body">
-                        
-                        <a href="hotels_details/1.html">
-                            <div class='row'>
-                                <div class='col-xs-6 path-detail'>
-                                    <strong>
-                                        Scoglio dell'Aquilone
-                                    </strong>
-                                    <br />
-                                    <span class='reduced-font'>
-                                        Via Orvieto, 23, Amelia(TR)
-                                    </span>
-                                </div>
-                                <div class='col-xs-6 path-detail colored-chevrons'>
-                                    <i class='fa fa-chevron-right slight-margin-top'></i>
-                                    <i class='fa fa-chevron-right slight-margin-top' ></i>
-                                </div>
-                            </div>
-                        </a>
-                        <legend></legend>
-                        
-                        <a href="hotels_details/2.html">
-                            <div class='row'>
-                                <div class='col-xs-6 path-detail'>
-                                    <strong>
-                                        Hotel Anita
-                                    </strong>
-                                    <br />
-                                    <span class='reduced-font'>
-                                        Via Roma, 31, Amelia(TR)
-                                    </span>
-                                </div>
-                                <div class='col-xs-6 path-detail colored-chevrons'>
-                                    <i class='fa fa-chevron-right slight-margin-top'></i>
-                                    <i class='fa fa-chevron-right slight-margin-top' ></i>
-                                </div>
-                            </div>
-                        </a>
-                        <legend></legend>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title bigger-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" style='background-color:5f9fbf;'>
-                            <i class='fa fa-info-circle'></i> Agriturismi <i class='fa fa-chevron-down'></i>
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseTwo" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <a href="agr_details/1.html">
-                            <div class='row'>
-                                <div class='col-xs-6 path-detail'>
-                                    <strong>
-                                        Agriturismo Tara
-                                    </strong>
-                                    <br />
-                                    <span class='reduced-font'>
-                                        Strada del Pisciarello, 3, Amelia(TR)
-                                    </span>
-                                </div>
-                                <div class='col-xs-6 path-detail colored-chevrons'>
-                                    <i class='fa fa-chevron-right slight-margin-top'></i>
-                                    <i class='fa fa-chevron-right slight-margin-top' ></i>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
+        <div id='news-container'>
+            
         </div>
+        
         
         
         <script src='../../js/jquery.js'></script>
         <script src='../../js/bootstrap.min.js'></script>
+        <script src='../../js/get_news.js'></script>
     </body>
 </html>
